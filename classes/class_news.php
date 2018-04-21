@@ -14,7 +14,7 @@ class seso_news {
 		$this->languages=$this->q->get_languages($language);
 	}
 //private functions
-  private function _getprevnext)$nid)
+  private function _getprevnext($nid)
 	{
 	}
   private function _getnewsitems($archive,$usergroup)
