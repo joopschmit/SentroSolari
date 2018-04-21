@@ -1,0 +1,18 @@
+A. LOGIN PROCEDURE
+1  Open website on primair url
+2  Login as user (only for existing users)
+2a Go to step 4 if current session is alive
+2b Enter emailaddress, if this known, enter password
+2c After logincheck=OK: if authorized<>group start emailcheck procedure
+3  if authorized=group: Save sessionid to keep the login alive during the current session
+3a if authorized<>group go back to step 1.
+4  Start with groupmenu
+5  Check out: set authorized=0, close current session an go back to step 1.  
+
+B. USER GROUPS:
+0  public users (only website)
+1  content users (only read application sections)
+2  professional users (read and write data of all applications)
+3  administrators (read and write data and content settings, create users)
+4  superusers (read and write all settings)
+
